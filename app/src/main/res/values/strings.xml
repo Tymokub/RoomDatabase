@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Nauczyciel</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_add_student">Add Student</string>
+    <string name="btn_add_classes">Add Classes</string>
+    <string name="btn_clear_database">Clear Database</string>
+    <string name="btn_show_classes">Show Classes</string>
+    <string name="txt_name">Input Name</string>
+    <string name="txt_day">Input Day</string>
+    <string name="txt_number">Input Block Number</string>
+    <string name="btn_add">Add</string>
+    <string name="txt_firstname">Input Firstname</string>
+    <string name="txt_lastname">Input Lastname</string>
+    <string name="txt_student_number">Input Student number</string>
+    <string name="wrong_input">Wrong input!</string>
+    <string name="name">name</string>
+    <string name="day">day</string>
+    <string name="block">block</string>
+    <string name="in">In</string>
+    <string name="grades">Grades</string>
+    <string name="add_grade">Add grade</string>
+    <string name="assign">Assign</string>
+    <string name="random_student">Random Student</string>
+
+</resources>

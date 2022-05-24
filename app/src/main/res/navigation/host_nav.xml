@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/host_nav"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.nauczyciel.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_classesAddFragment"
+            app:destination="@id/classesAddFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_studentAddFragment"
+            app:destination="@id/studentAddFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_showClassesFragment"
+            app:destination="@id/showClassesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/studentAddFragment"
+        android:name="com.example.nauczyciel.StudentAddFragment"
+        android:label="fragment_student_add"
+        tools:layout="@layout/fragment_student_add" >
+        <action
+            android:id="@+id/action_studentAddFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/classesAddFragment"
+        android:name="com.example.nauczyciel.ClassesAddFragment"
+        android:label="fragment_classes_add"
+        tools:layout="@layout/fragment_classes_add" >
+        <action
+            android:id="@+id/action_classesAddFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/showClassesFragment"
+        android:name="com.example.nauczyciel.showClassesFragment"
+        android:label="fragment_show_classes"
+        tools:layout="@layout/fragment_show_classes" >
+        <action
+            android:id="@+id/action_showClassesFragment_to_menuFragment2"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_showClassesFragment_to_studentAsiggnFragment"
+            app:destination="@id/studentAsiggnFragment" />
+        <action
+            android:id="@+id/action_showClassesFragment_to_studentShowFragment"
+            app:destination="@id/studentShowFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/studentAsiggnFragment"
+        android:name="com.example.nauczyciel.StudentAsiggnFragment"
+        android:label="fragment_studentasiggn"
+        tools:layout="@layout/fragment_studentasiggn" >
+        <action
+            android:id="@+id/action_studentAsiggnFragment_to_showClassesFragment"
+            app:destination="@id/showClassesFragment" />
+        <argument
+            android:name="subjectname"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/studentShowFragment"
+        android:name="com.example.nauczyciel.StudentShowFragment"
+        android:label="fragment_student_show"
+        tools:layout="@layout/fragment_student_show" >
+        <action
+            android:id="@+id/action_studentShowFragment_to_showClassesFragment"
+            app:destination="@id/showClassesFragment" />
+        <argument
+            android:name="subjectname"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_studentShowFragment_to_gradesShowFragment"
+            app:destination="@id/gradesShowFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gradesShowFragment"
+        android:name="com.example.nauczyciel.GradesShowFragment"
+        android:label="fragment_grades_show"
+        tools:layout="@layout/fragment_grades_show" >
+        <action
+            android:id="@+id/action_gradesShowFragment_to_studentShowFragment"
+            app:destination="@id/studentShowFragment" />
+        <argument
+            android:name="subjectname"
+            app:argType="string" />
+        <argument
+            android:name="album_number"
+            app:argType="integer" />
+    </fragment>
+</navigation>

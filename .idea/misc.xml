@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/tymot/OneDrive/Pulpit/Aplikacje_mobilne/Nauczyciel/RoomDatabase/app/src/main/res/layout/fragment_grades_show.xml" value="0.10648148148148148" />
+        <entry key="..\:/Users/tymot/OneDrive/Pulpit/Aplikacje_mobilne/Nauczyciel/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/tymot/OneDrive/Pulpit/Aplikacje_mobilne/Nauczyciel/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/tymot/OneDrive/Pulpit/Aplikacje_mobilne/Nauczyciel/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/tymot/OneDrive/Pulpit/Aplikacje_mobilne/Nauczyciel/app/src/main/res/layout/fragment_classes_add.xml" value="0.264" />
+        <entry key="..\:/Users/tymot/OneDrive/Pulpit/Aplikacje_mobilne/Nauczyciel/app/src/main/res/layout/fragment_grades_show.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/tymot/OneDrive/Pulpit/Aplikacje_mobilne/Nauczyciel/app/src/main/res/layout/fragment_menu.xml" value="0.2" />
+        <entry key="..\:/Users/tymot/OneDrive/Pulpit/Aplikacje_mobilne/Nauczyciel/app/src/main/res/layout/fragment_show_classes.xml" value="0.152" />
+        <entry key="..\:/Users/tymot/OneDrive/Pulpit/Aplikacje_mobilne/Nauczyciel/app/src/main/res/layout/fragment_student_add.xml" value="0.2" />
+        <entry key="..\:/Users/tymot/OneDrive/Pulpit/Aplikacje_mobilne/Nauczyciel/app/src/main/res/layout/fragment_student_show.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/tymot/OneDrive/Pulpit/Aplikacje_mobilne/Nauczyciel/app/src/main/res/layout/fragment_studentasiggn.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/tymot/OneDrive/Pulpit/Aplikacje_mobilne/Nauczyciel/app/src/main/res/layout/grades_show_row.xml" value="0.2" />
+        <entry key="..\:/Users/tymot/OneDrive/Pulpit/Aplikacje_mobilne/Nauczyciel/app/src/main/res/layout/studentasiggn_row.xml" value="0.264" />
+        <entry key="..\:/Users/tymot/OneDrive/Pulpit/Aplikacje_mobilne/Nauczyciel/app/src/main/res/layout/studentshow_row.xml" value="0.4" />
+        <entry key="..\:/Users/tymot/OneDrive/Pulpit/Aplikacje_mobilne/Nauczyciel/app/src/main/res/layout/subject_row.xml" value="0.264" />
+        <entry key="..\:/Users/tymot/OneDrive/Pulpit/Aplikacje_mobilne/Nauczyciel/app/src/main/res/menu/grade_menu.xml" value="0.13020833333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

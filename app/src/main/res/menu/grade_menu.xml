@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_two"
+        android:title="2"/>
+    <item
+        android:id="@+id/menu_twohalf"
+        android:title="2.5"/>
+    <item
+        android:id="@+id/menu_three"
+        android:title="3"/>
+    <item
+        android:id="@+id/menu_threehalf"
+        android:title="3.5"/>
+    <item
+        android:id="@+id/menu_four"
+        android:title="4"/>
+    <item
+        android:id="@+id/menu_fourhalf"
+        android:title="4.5"/>
+    <item
+        android:id="@+id/menu_five"
+        android:title="5"/>
+
+</menu>
